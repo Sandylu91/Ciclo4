@@ -5,6 +5,7 @@ import Login from "../login/login";
 import Inicio from "../inicio/inicio";
 import Registro from "../registro/registro";
 import Mascotas from "../mascotas/mascotas"
+import Fundaciones from "../fundaciones/fundaciones"
 
 export default function AppRouter() {
   return (
@@ -23,6 +24,7 @@ export default function AppRouter() {
         <Route exact path="/inicio" element={<Inicio />} ></Route>
         <Route exact path="/registro" element={<Registro />} ></Route>
         <Route exact path="/mascotas" element={<Mascotas />} ></Route>
+        <Route exact path="/fundaciones" element={<Fundaciones />} ></Route>
         <Route exact path="/" element={<Inicio />} />
       </Routes>
       

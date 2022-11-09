@@ -6,8 +6,6 @@ import Menu from './components/navbar/navbar';
 import AppRouter  from './components/routers/router'; 
 
 
-
-
 function App() {
   return (
 
