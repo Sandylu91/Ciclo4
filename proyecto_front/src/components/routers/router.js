@@ -14,7 +14,7 @@ export default function AppRouter() {
       <Routes>
         <Route exact path="/login" element={<Login />} > </Route>
               <Route
-          path="/"
+          path="/*"
           element={
             <h1 style={{ marginTop: 400 }}>
               {" "}
