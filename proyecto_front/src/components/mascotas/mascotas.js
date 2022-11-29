@@ -4,11 +4,14 @@ import { Container, Card, Button, Row, Col } from "react-bootstrap";
 import imagenes from "./imagenes";
 import "./mascotas.css";
 
+
+//const { APIHOST } = app;
 export default class mascotas extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
   }
+ 
 
   render() {
     return (
@@ -37,7 +40,8 @@ export default class mascotas extends React.Component {
                 <Card.Text>
                  
                 </Card.Text>
-                <Button variant="primary">Más información</Button>
+                <Button variant="primary">Más información
+                            </Button>
               </Card.Body>
             </Card>
           </Col>
